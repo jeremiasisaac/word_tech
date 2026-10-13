@@ -1,0 +1,8 @@
+@charset "UTF8";
+
+@media screen and (max-width: 770px){
+    header{
+        width: 85%;
+        padding-left: 2px;
+    }
+}

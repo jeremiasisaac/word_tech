@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #071426;
+
+}
+
+#n1 {
+    font-size: 1.1em;
+}
+
+header {
+    border-bottom: 1px solid #4c4c4c;
+    padding: 10px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+#uau {
+    border-radius: 20px;
+}
+
+#l{
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 1.1em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+p > a:hover{
+    background-color: rgba(128, 128, 128, 0.398);
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+address{
+    color: white;
+}
+header>h1 {
+    font-size: 1.4em;
+    padding-bottom: 8px;
+    color: rgb(213, 213, 213);
+    color: oklch(49.894% 0.20249 28.976);
+    text-shadow: 10px 2px 10px lch(7.24% 26.29 22.7 / 0.935);
+    padding-top: 10px;
+}
+
+header>p {
+    padding-bottom: 10px;
+    color: rgb(164, 164, 246);
+}
+
+main {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffffffd6;
+
+
+}
+
+#ab {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: hsla(215, 71%, 8%, 0.566);
+
+}
+
+#n1 {
+    color: blue;
+    padding-bottom: 5px;
+}
+
+
+button {
+    background-color: #1684f8;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #e6e5e5;
+}
+
+#card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+#janela {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    border: 1px solid rgb(1, 35, 1);
+    border-radius: 20px;
+    background-color: hsla(120, 98%, 49%, 0.055);
+    margin: auto;
+
+}
+
+#at {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#techys {
+    margin-bottom: 20px;
+}
+
+#c {
+    padding: 10px;
+}
+
+#sobre {
+    padding: 10px;
+}
+
+#m {
+    padding-bottom: 5px;
+}
+
+#f {
+    font-size: 1.1em;
+}
+
+button:hover{
+    background-color: hsl(211, 99%, 46%);
+    height: 51px;
+}
